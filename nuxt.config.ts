@@ -15,6 +15,9 @@ export default defineNuxtConfig({
   css: [
     '~/assets/css/main.css',
   ],
+  experimental: {
+    appManifest: false,
+  },
   compatibilityDate: '2024-11-01',
   eslint: {
     config: {
