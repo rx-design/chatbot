@@ -13,14 +13,17 @@
   },
   "dependencies": {
     "@primevue/forms": "^4.2.5",
+    "@vueuse/integrations": "^12.4.0",
     "nuxt": "^3.15.2",
     "primevue": "^4.2.5",
+    "qrcode": "^1.5.4",
+    "universal-cookie": "^7.2.2",
     "vue": "latest",
     "vue-router": "latest",
     "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@iconify-json/prime": "^1.2.2",
+    "@iconify-json/tabler": "^1.2.14",
     "@nuxt/eslint": "^0.7.5",
     "@nuxt/fonts": "^0.10.3",
     "@nuxt/icon": "^1.10.3",
