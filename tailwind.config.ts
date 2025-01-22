@@ -5,4 +5,11 @@ export default {
   plugins: [
     primeUi,
   ],
+  theme: {
+    extend: {
+      fontFamily: {
+        fredoka: 'Fredoka", serif',
+      },
+    },
+  },
 } satisfies Partial<Config>
